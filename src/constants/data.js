@@ -2,7 +2,7 @@ const data = [
     {
       "name": "Product 1",
       "imageUrl": "https://ehs.ucsc.edu/programs/research-safety/images/phenol.png",
-      "firsChar": "A",
+      "parentImpurity": "A",
       "catNo":"sahbd",
       "casNo": "asds",
       "molecularFormula": "asdsa",
@@ -13,7 +13,7 @@ const data = [
       {
       "name": "Product 1",
       "imageUrl": "https://ehs.ucsc.edu/programs/research-safety/images/phenol.png",
-      "firsChar": "A",
+      "parentImpurity": "A",
       "catNo":"sahbd",
       "casNo": "asds",
       "molecularFormula": "asdsa",
@@ -24,7 +24,7 @@ const data = [
       {
       "name": "Product 1",
       "imageUrl": "https://ehs.ucsc.edu/programs/research-safety/images/phenol.png",
-      "firsChar": "A",
+      "parentImpurity": "A",
       "catNo":"sahbd",
       "casNo": "asds",
       "molecularFormula": "asdsa",
@@ -35,7 +35,7 @@ const data = [
       {
       "name": "Product 1",
       "imageUrl": "https://ehs.ucsc.edu/programs/research-safety/images/phenol.png",
-      "firsChar": "A",
+      "parentImpurity": "A",
       "catNo":"sahbd",
       "casNo": "asds",
       "molecularFormula": "asdsa",
@@ -46,7 +46,7 @@ const data = [
       {
       "name": "Product 1",
       "imageUrl": "https://ehs.ucsc.edu/programs/research-safety/images/phenol.png",
-      "firsChar": "A",
+      "parentImpurity": "A",
       "catNo":"sahbd",
       "casNo": "asds",
       "molecularFormula": "asdsa",
@@ -57,7 +57,7 @@ const data = [
       {
       "name": "Product 1",
       "imageUrl": "https://ehs.ucsc.edu/programs/research-safety/images/phenol.png",
-      "firsChar": "A",
+      "parentImpurity": "A",
       "catNo":"sahbd",
       "casNo": "asds",
       "molecularFormula": "asdsa",
@@ -68,7 +68,7 @@ const data = [
       {
       "name": "Product 1",
       "imageUrl": "https://ehs.ucsc.edu/programs/research-safety/images/phenol.png",
-      "firsChar": "A",
+      "parentImpurity": "A",
       "catNo":"sahbd",
       "casNo": "asds",
       "molecularFormula": "asdsa",
@@ -79,7 +79,7 @@ const data = [
       {
       "name": "Product 1",
       "imageUrl": "https://ehs.ucsc.edu/programs/research-safety/images/phenol.png",
-      "firsChar": "A",
+      "parentImpurity": "A",
       "catNo":"sahbd",
       "casNo": "asds",
       "molecularFormula": "asdsa",
@@ -90,7 +90,7 @@ const data = [
       {
       "name": "Product 1",
       "imageUrl": "https://ehs.ucsc.edu/programs/research-safety/images/phenol.png",
-      "firsChar": "A",
+      "parentImpurity": "A",
       "catNo":"sahbd",
       "casNo": "asds",
       "molecularFormula": "asdsa",
@@ -101,7 +101,7 @@ const data = [
       {
       "name": "Product 1",
       "imageUrl": "https://ehs.ucsc.edu/programs/research-safety/images/phenol.png",
-      "firsChar": "A",
+      "parentImpurity": "A",
       "catNo":"sahbd",
       "casNo": "asds",
       "molecularFormula": "asdsa",
@@ -112,7 +112,7 @@ const data = [
       {
       "name": "Product 1",
       "imageUrl": "https://ehs.ucsc.edu/programs/research-safety/images/phenol.png",
-      "firsChar": "A",
+      "parentImpurity": "A",
       "catNo":"sahbd",
       "casNo": "asds",
       "molecularFormula": "asdsa",
@@ -123,7 +123,7 @@ const data = [
       {
       "name": "Product 1",
       "imageUrl": "https://ehs.ucsc.edu/programs/research-safety/images/phenol.png",
-      "firsChar": "A",
+      "parentImpurity": "A",
       "catNo":"sahbd",
       "casNo": "asds",
       "molecularFormula": "asdsa",

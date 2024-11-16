@@ -2,13 +2,22 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import AlphabetFilter from '../childComponents/AlphabetFilter';
+import parentImpurity from '../../constants/parentImpurity';
 
 
 function Products() {
+  console.log(parentImpurity)
   return (
     <>
-    <Header></Header>
-    <Footer></Footer>
+      <Header />
+      <AlphabetFilter />
+      <div>
+        {parentImpurity?.map((k, index) => {
+          return <div key={index}>{k?.name}</div>;
+        })}
+      </div>
+      <Footer />
     </>
   );
 }
