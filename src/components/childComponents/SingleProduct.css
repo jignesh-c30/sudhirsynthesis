@@ -1,0 +1,55 @@
+.card {
+    background: white;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    color: #333;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.card-header {
+    background-color: #00a1e0;
+    color: white;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.card-content {
+    padding: 1em;
+}
+
+.card-content img {
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto 1em;
+    display: block;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em;
+}
+
+.info-list li {
+    margin: 0.5em 0;
+}
+
+.inventory-status {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.in-stock {
+    color: green;
+}
+
+.out-of-stock {
+    color: red;
+}
