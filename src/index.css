@@ -19,11 +19,12 @@ code {
   width: 100%;
 }
 .bannerText {
-  position: relative;
+  position: absolute;
   width: 40%;
+  margin-left: 5%;
 }
 .bannerImage {
-  width: 70%;
+  width: 100%;
 }
 .bannerImage img{
   width: 100%;
