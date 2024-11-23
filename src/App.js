@@ -14,7 +14,7 @@ import Services from "./components/pages/Services";
 function App() {
   return (
     <>
-      <Router basename="/sudhirsynthesis">
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
