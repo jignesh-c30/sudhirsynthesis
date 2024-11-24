@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import logo from '../../Assets/logo.png';
+import React from "react";
+import { Link } from "react-router-dom";
+import logo from "../../Assets/logo.png";
 
 function Header() {
   return (
-    <header>
+    <header style={{ position: "sticky", top: "0px", zIndex: "100" }}>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src={logo} alt='logo' style={{'width':'150px'}}></img>
+            <img src={logo} alt="logo" style={{ width: "350px" }}></img>
           </Link>
           <button
             className="navbar-toggler"

@@ -1,4 +1,5 @@
-.productGrid{
-    display: flex;
-    flex-wrap: wrap;
+.featured-products {
+  font-size: clamp(1.4rem, 1.8vw, 2rem); /* Minimum 1rem, scales with viewport, max 2rem */
+  border-bottom: 2px dashed black;
+  margin: 2%;
 }

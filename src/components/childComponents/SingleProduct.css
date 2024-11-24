@@ -1,68 +1,12 @@
-.card {
-  background: white;
-  width: 90%;
-  max-width: 400px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  overflow: hidden;
-  text-align: center;
-  color: #333;
-  margin: auto;
-  font-family: Arial, sans-serif;
+.card{
+  border: 1px solid silver!important;
+  border-radius: 4px!important;
 }
-
-.card-header {
-  background-color: #00a1e0;
+.carousel, .carousel-inner {
+  transition: none !important;
+}
+.card-header{
+  background-color: #4a50a0;
   color: white;
-  font-size: 1.25em;
-  font-weight: bold;
-  padding: 1em;
-}
-
-.card-content {
-  padding: 1em;
-}
-
-.card-content img {
-  width: 80%;
-  max-width: 200px;
-  height: auto;
-  margin: 0 auto 1em;
-  display: block;
-}
-
-.info-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1em;
-}
-
-.info-list li {
-  margin: 0.5em 0;
-}
-
-.inventory-status {
-  font-size: 1.1em;
-  font-weight: bold;
-}
-
-.in-stock {
-  color: green;
-}
-
-.out-of-stock {
-  color: red;
-}
-.linearAlphabets {
   font-weight: 700;
-  font-size: 28px;
-  display: flex;
-  color: #424ca3;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.linearAlphabets div{
-margin: 10px;
-cursor: pointer;
 }
