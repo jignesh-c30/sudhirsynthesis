@@ -10,3 +10,13 @@
   color: white;
   font-weight: 700;
 }
+.linearAlphabets div {
+  color:#4a50a0;
+  font-size:32px;
+  font-weight:700;
+  padding:12px;
+}
+.linearAlphabets{
+  display: flex;
+flex-wrap:wrap;
+}

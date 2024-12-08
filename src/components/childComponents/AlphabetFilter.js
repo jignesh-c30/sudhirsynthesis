@@ -1,5 +1,5 @@
 import React from "react";
-// import "./SingleProduct.css";
+import "./SingleProduct.css";
 import { useNavigate } from "react-router-dom";
 
 function AlphabetFilter() {
@@ -37,7 +37,7 @@ function AlphabetFilter() {
   };
   return (
     <>
-      <div className="linearAlphabets">
+      <div className="linearAlphabets container">
         {alphabets.map((k, index) => {
           return (
             <div key={index} onClick={()=>handleCharacterClick(k)}>
